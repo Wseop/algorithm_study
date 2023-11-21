@@ -8,7 +8,7 @@ using namespace std;
 // BFS, dynamic programming
 
 // dp[alp][cop] = 알고력, 코딩력을 습득하기까지 걸린 최소 시간
-// 문제를 풀지 않고 그냥 1씩 올리는 경우를 problems에 추가하여 로직 단순화 -> line 33, 34
+// 문제를 풀지 않고 그냥 1씩 올리는 경우를 problems에 추가하여 로직 단순화 -> line 34, 35
 // 알고력과 코딩력은 150을 넘지 못하므로 이를 넘긴 경우 150으로 조정, dp index 에러 방지
 
 const int INF = 987654321;
